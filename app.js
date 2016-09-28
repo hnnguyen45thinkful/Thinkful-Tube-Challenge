@@ -32,7 +32,7 @@ var nextPage; //nextPage = results.nextPageToken; calling this in the .$ajax({ .
 				request.pageToken = nextPage
 			}
 		$.ajax({ //Similar to the Lesson 1 format using the ajax instead of .getJSON.
-			url:"https://www.googleapis.com/youtube/v3/search", // endpoints of the URL and using the AJAX request.
+			url: "https://www.googleapis.com/youtube/v3/search", // endpoints of the URL and using the AJAX request.
 			method: "GET", 
 			dataType: 'json',
 			data: request

@@ -1,11 +1,18 @@
 body {
 	background-color: red;
+	background-image: url("youtube-logo.jpg");
+	background-repeat: repeat;
 }
 
 h1 {
 	color: red;
 	font-size: 50px;
 	text-align: center;
+	font-family: "Times New Roman", Georgia, Serif;
+}
+
+p{
+	font-family: "Times New Roman", Georgia, Serif;
 }
 
 .main {
@@ -25,7 +32,7 @@ a.more {
 
 .about {
 	text-align: center;
-	font-size: 16px;
+	font-size: 20px;
 }
 
 #search-term {
@@ -47,7 +54,7 @@ ul {
 	text-align: center;
 	list-style: none;
 	padding-top: 2px;
-	background-color: #dd7b1b;
+	background-color: grey;
 	border-radius: 3px;
 	margin: 0 auto;
 }
