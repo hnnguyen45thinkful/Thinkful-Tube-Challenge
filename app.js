@@ -25,7 +25,7 @@ var nextPage; //nextPage = results.nextPageToken; calling this in the .$ajax({ .
 		var request = {
 				part: "snippet", //
 				key: "AIzaSyDLvebM_BupT1Y5KQW1NOc_SjtFejbuMGI",//my API key generated for my computer
-				q: query,// 
+				q: query,//
 			};
 			//Move to to the next page and add condition with more information on video searches.
 			if (nextPage){

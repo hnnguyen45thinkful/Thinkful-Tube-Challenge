@@ -1,6 +1,6 @@
 body {
 	background-color: red;
-	background-image: url("youtube-logo.jpg");
+	background-image: url("youtube.jpg");
 	background-repeat: repeat;
 }
 
@@ -44,6 +44,7 @@ a.more {
 #search-results {
 	margin: 0 auto;
 	border-color: black;
+	font-size: 20px;
 }
 
 ul {
